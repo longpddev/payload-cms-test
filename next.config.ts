@@ -4,6 +4,8 @@ import { withPayload } from '@payloadcms/next/withPayload'
 const nextConfig = {
   images: {
     unoptimized: true,
+    // loader: 'custom' as const,
+    // loaderFile: './imageLoader.ts',
   },
   // Your Next.js config here
   webpack: (webpackConfig: any) => {
