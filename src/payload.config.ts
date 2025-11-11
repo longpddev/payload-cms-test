@@ -73,7 +73,7 @@ export default buildConfig({
   collections: [Users, Media, Categories, Products, Projects, Pages, PriceQuotes],
   globals: [HomePage, Header, Footer],
   editor: lexicalEditor(),
-  secret: process.env.PAYLOAD_SECRET || '',
+  secret: process.env.PAYLOAD_SECRET || 'c97abbd01ecf8fecec9aa4b1',
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),
   },
